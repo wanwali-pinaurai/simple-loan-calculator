@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:text="คำนวณสินเชื่อ"
+        android:textColor="#009688"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="จำนวนเงินที่ขอกู้ (บาท)" />
+
+
+    <EditText
+        android:id="@+id/tvNum1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="อัตราดอกเบี้ย (% ต่อปี)" />
+
+    <EditText
+        android:id="@+id/tvNum2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="ระยะเวลาที่ขอกู้ (ปี)" />
+
+    <EditText
+        android:id="@+id/tvNum3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="คำนวณ"
+        android:textColor="#fff"
+        android:backgroundTint="#009688"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/tvRecom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#d6d7d7"
+        android:text="*สินเชื่อแนะนำ"
+        android:textColor="#000" />
+
+</LinearLayout>
